@@ -10,14 +10,15 @@ $plugins->add_hook("redirect", "warnpost_save");
 function warnpost_info()
 {
     return array(
-        "name"            => "Warn Post",
-        "description"    => "Erstellt einen Thread beim Verwarnungen von Users<br /><i>Based on Warn Post by thebod</i>",
-        "website"        => "http://mybbservice.de/",
-        "author"        => "MyBBService",
-        "authorsite"    => "http://mybbservice.de/",
-        "version"        => "1.0",
-        "guid"             => "",
-        "compatibility" => "16*"
+		"name"			=> "Warn Post",
+		"description"	=> "Erstellt einen Thread beim Verwarnungen von Users<br /><i>Based on Warn Post by thebod</i>",
+		"website"		=> "http://mybbservice.de/",
+		"author"		=> "MyBBService",
+		"authorsite"	=> "http://mybbservice.de/",
+		"version"		=> "1.0.1",
+		"guid"			=> "",
+		"compatibility"	=> "16*",
+		"dlcid"			=> "22"
     );
 }
 
